@@ -1,0 +1,24 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Project specific folders (too large or generated locally)
+input_videos/
+output_videos/
+runs/
+stubs/
+
+# Machine Learning Model Weights (YOLO .pt files are usually too large)
+*.pt
+
+# Virtual Environments (if you add one later)
+venv/
+env/
+.venv/
+
+# IDE files
+.vscode/
+.idea/
+
+# Environment variables (keeps secrets safe)
+.env    
